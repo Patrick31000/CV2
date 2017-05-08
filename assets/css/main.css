@@ -285,3 +285,51 @@
  sm {
      font-size: 12px;
  }
+ 
+ #fr {
+     float: right;
+     margin: 1em;
+     background-color: #2C3E50;
+     color: white;
+ }
+ 
+ #fr:focus {
+     float: right;
+     margin: 1em;
+     background-color: #1abc9c;
+     color: white;
+ }
+ 
+ #en {
+     float: right;
+     margin-top: 1em;
+     background-color: #2C3E50;
+     color: white;
+ }
+ 
+ #en:focus {
+     float: right;
+     margin-top: 1em;
+     background-color: #1abc9c;
+     color: white;
+ }
+ 
+ #titre {
+     display: inline;
+ }
+ 
+ #titre2 {
+     font-size: 20px;
+ }
+ 
+ #titre3 {
+     color: black;
+ }
+ 
+ #mjc {
+     margin-top: -1.5em;
+ }
+ 
+ #imerys {
+     margin-top: -1.5em;
+ }

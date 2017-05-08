@@ -40,6 +40,8 @@
                             <li class="menu-item"><a class="smoothScroll" href="#resume" title="Mon parcours"><i class="icon-file"></i></a></li>
                             <li class="menu-item"><a class="smoothScroll" href="#contact" title="Contact"><i class="icon-envelope"></i></a></li>
                         </ul>
+                        <button type="button" id="fr" class="btn btn-outline-secondary">Fr</button>
+                        <button type="button" id="en" class="btn btn-outline-secondary">En</button>
                         <!--/ uL#nav -->
                     </div>
                     <!-- /.dropdown -->
@@ -60,12 +62,18 @@
             <div class="row centered">
                 <div class="col-lg-12">
                     <h1>Patrick Taylor</h1>
-                    <h3>Développeur Web | <a href="mailto:patrick.taylor31@gmail.com">patrick.taylor31@gmail.com</a></h3>
+                    <div id="titre2">
+                        <h3 id="titre" class="tr" key="metiertitre">Développeur Web |</h3>
+                        <a href="mailto:patrick.taylor31@gmail.com">patrick.taylor31@gmail.com</a></div>
+                    <h4 id="titre3" class="tr" key="metiertitre2">Bilingue Anglais / Français, 37 ans</h4>
                 </div>
+
                 <!--/.col-lg-12 -->
             </div>
+
             <!--/.row -->
         </div>
+
         <!--/.container -->
     </div>
 
@@ -77,10 +85,10 @@
             <div class="row">
 
                 <div class="col-lg-2 col-lg-offset-1">
-                    <h5>A propos</h5>
+                    <h5 class="tr" key="abouttitre">A propos</h5>
                 </div>
                 <div class="col-lg-6">
-                    <p>Issu d'un parcours RH, je me forme au métier de développeur Web au près de l'organisme de formation Simplon. Cette formation se déroule sur 8 mois en intensif. Simplon étant une entreprise de l'Economie Sociale et Solidaire, l'objectif
+                    <p class="tr" key="about">Issu d'un parcours RH, je me forme au métier de développeur Web au près de l'organisme de formation Simplon. Cette formation se déroule sur 8 mois en intensif. Simplon étant une entreprise de l'Economie Sociale et Solidaire, l'objectif
                         est de former des personnes directement employables par une implication sur des projets locaux concrêts dans des régions enclavées. Je suis actuellement à la recherche d'un stage du 21 Août au 27 Octobre pour mettre en application
                         mes connaissances dans un milieu professionnel.
                     </p>
@@ -109,28 +117,28 @@
             </div>
             <div class="col-lg-6">
                 <p>
-                    <t>Developpeur Web</t><br/> Simplon.co <br/>
-                    <i>10 mois</i>
+                    <t class="tr" key="educationtitre">Développeur Web</t><br/> Simplon.co <br/>
+                    <i class="tr" key="educationduree">10 mois</i>
                 </p>
             </div>
             <div class="col-lg-3">
                 <p>
-                    <sm>Certification niveau BAC+2 en Décembre 2017</sm><br/>
+                    <sm class="tr" key="educationdiplome">Certification niveau BAC+2 en Décembre 2017</sm><br/>
                     <imp>
-                        <sm>En cours</sm>
+                        <sm class="tr" key="educationstatus">En cours</sm>
                     </imp>
                 </p>
             </div>
 
             <div class="col-lg-6 col-lg-offset-3">
                 <p>
-                    <t>Mastère Spécialisé "Responsable RH"</t><br/> Toulouse Business School<br/>
-                    <i>2 ans</i>
+                    <t class="tr" key="educationdiplome2">Mastère Spécialisé "Responsable RH"</t><br/> Toulouse Business School<br/>
+                    <i class="tr" key="educationduree2">2 ans</i>
                 </p>
             </div>
             <div class="col-lg-3">
                 <p>
-                    <sm>Juin 2008</sm>
+                    <sm class="tr" key="educationstatus2">Juin 2008</sm>
                 </p>
             </div>
             <!--/.row -->
@@ -145,37 +153,37 @@
             <div class="row">
 
                 <div class="col-lg-2 col-lg-offset-1">
-                    <h5>Expériences Professionnelles Web</h5>
+                    <h5 class="tr" key="expweb">Expériences Professionnelles Web</h5>
                 </div>
                 <div class="col-lg-6">
                     <p>
-                        <t>Développeur Web</t><br/> Pour la Fédération Régionale des MJC<br/>
+                        <t class="tr" key="educationtitre">Développeur Web</t>
+                        <p id="mjc" class="tr" key="expclient">Pour la Fédération Régionale des MJC</p>
                     </p>
                     <p>
-                        <more>Réalisation d'un Serious Game sur le Service de Volontariat Européen au sein d'une équipe de 5 personnes.<br> L'objectif est d'informer les jeunes sur le dispositif de volontariat européen au travers d'un jeu simulant la phase
-                            de préparation au départ.<br>
-                            <a href="http://instinctive-road.surge.sh/">SVE Game</a></more>
+                        <more class="tr" key="educationsve">Réalisation d'un Serious Game sur le Service de Volontariat Européen au sein d'une équipe de 5 personnes.<br> L'objectif est d'informer les jeunes sur le dispositif de volontariat européen au travers d'un jeu simulant la phase
+                            de préparation au départ.</more><br>
+                        <a href="http://instinctive-road.surge.sh/">SVE Game</a>
                     </p>
                 </div>
                 <div class="col-lg-3">
                     <p>
-                        <sm>Mars 2017</sm>
+                        <sm class="tr" key="datesve">Mars 2017</sm>
                     </p>
                 </div>
 
                 <div class="col-lg-6 col-lg-offset-3">
                     <p>
-                        <t>Développeur Web</t><br/> Simplon.co<br/>
+                        <t class="tr" key="educationtitre">Développeur Web</t><br/> Simplon.co<br/>
                     </p>
                     <p>
-                        <more>Au sein d'une equipe de 6 personnes, réalisation du site web de la promotion.<br>
-                            <a href="https://stgaudens.simplon.co/">Site de la promo</a>
-                        </more>
+                        <more class="tr" key="educationsite">Au sein d'une equipe de 6 personnes, réalisation du site web de la promotion.</more><br>
+                        <a href="https://stgaudens.simplon.co/">Simplon St-Gaudens Web Site</a>
                     </p>
                 </div>
                 <div class="col-lg-3">
                     <p>
-                        <sm>Février 2017</sm>
+                        <sm class="tr" key="datesite">Février 2017</sm>
                     </p>
                 </div>
 
@@ -191,20 +199,21 @@
         <div class="container desc">
             <div class="row">
                 <div class="col-lg-2 col-lg-offset-1">
-                    <h5>Expériences Professionnelles RH</h5>
+                    <h5 class="tr" key="exppro">Expériences Professionnelles RH</h5>
                 </div>
                 <div class="col-lg-6">
                     <p>
-                        <t>Responsable RH</t><br/> Rives Dicostanzo (Toulouse)<br/>
+                        <t class="tr" key="exprivestitre">Responsable RH</t><br/> Rives Dicostanzo (Toulouse)<br/>
                     </p>
                     <p>
-                        <more>Management du service Paie et Formation (5personnes).<br> Compétences :
+                        <more class="tr" key="exprivestitre1">Management du service Paie et Formation (5personnes).</more><br>
+                        <more class="tr" key="exprivestitre2">Compétences :
                             <ul>
-                                <li>Paie</li>
-                                <li>Formation</li>
-                                <li>Vie des IRP</li>
-                                <li>Procédures disciplinaires</li>
-                                <li>Administration du personnel</li>
+                                <li class="tr" key="exprivestitre3">Paie</li>
+                                <li class="tr" key="exprivestitre4">Formation</li>
+                                <li class="tr" key="exprivestitre5">Vie des IRP</li>
+                                <li class="tr" key="exprivestitre6">Procédures disciplinaires</li>
+                                <li class="tr" key="exprivestitre7">Administration du personnel</li>
                             </ul>
 
                         </more>
@@ -218,15 +227,15 @@
 
                 <div class="col-lg-6 col-lg-offset-3">
                     <p>
-                        <t>Responsable RH</t><br/> Syngenta (Saint-Sauveur)<br/>
+                        <t class="tr" key="expsyntitre">Responsable RH</t><br/> Syngenta (Saint-Sauveur)<br/>
                     </p>
                     <p>
-                        <more>Management du service Paie et Formation (5personnes).<br> Dans le cadre d’une délocalisation des services RH en Pologne :
+                        <more class="tr" key="expsyntitre1">Dans le cadre d’une délocalisation des services RH en Pologne :
                             <ul>
-                                <li>Mise à jour de la structure organisationnelle (workflows)</li>
-                                <li>Support aux managers dans le lancement et le suivi des recrutements</li>
-                                <li>Accompagnement des managers à l’utilisation des nouveaux processus et outils</li>
-                                <li>Suivi des demandes de dérogations au temps de travail</li>
+                                <li class="tr" key="expsyntitre2">Mise à jour de la structure organisationnelle (workflows)</li>
+                                <li class="tr" key="expsyntitre3">Support aux managers dans le lancement et le suivi des recrutements</li>
+                                <li class="tr" key="expsyntitre4">Accompagnement des managers à l’utilisation des nouveaux processus et outils</li>
+                                <li class="tr" key="expsyntitre5">Suivi des demandes de dérogations au temps de travail</li>
                             </ul>
                         </more>
                     </p>
@@ -242,7 +251,7 @@
                         <t>Human Resources Business Partner</t><br/> UTC (Colomiers)<br/>
                     </p>
                     <p>
-                        <more>Gestion de des problématiques RH d’une population de 60 personnes au sein d’un centre de maintenance et réparation aéronautique (MRO) : recrutement, formation, conseil RH aux managers et salariés, suivi de la politique RH, communication
+                        <more class="tr" key="exputctitre">Gestion de des problématiques RH d’une population de 60 personnes au sein d’un centre de maintenance et réparation aéronautique (MRO) : recrutement, formation, conseil RH aux managers et salariés, suivi de la politique RH, communication
                             RH, reporting en anglais, transmission des variables de paie.
                         </more>
                     </p>
@@ -255,16 +264,16 @@
 
                 <div class="col-lg-6 col-lg-offset-3">
                     <p>
-                        <t>Chargé de Mission RH</t><br/> UTC (Colomiers)<br/>
+                        <t class="tr" key="exputc2titre">Chargé de Mission RH</t><br/> UTC (Colomiers)<br/>
                     </p>
                     <p>
-                        <more>Compétences :
+                        <more class="tr" key="exputc2titre2">Compétences :
                             <ul>
-                                <li>Recrutement de personnel cadre et non cadre</li>
-                                <li>Gestion du personnel intérimaire</li>
-                                <li>Gestion des contrats d’alternance et stages</li>
-                                <li>Forums Emploi</li>
-                                <li>Intégration des nouveaux embauchés</li>
+                                <li class="tr" key="exputc2titre3">Recrutement de personnel cadre et non cadre</li>
+                                <li class="tr" key="exputc2titre4">Gestion du personnel intérimaire</li>
+                                <li class="tr" key="exputc2titre5">Gestion des contrats d’alternance et stages</li>
+                                <li class="tr" key="exputc2titre6">Forums Emploi</li>
+                                <li class="tr" key="exputc2titre7">Intégration des nouveaux embauchés</li>
                             </ul>
                         </more>
                     </p>
@@ -277,18 +286,18 @@
 
                 <div class="col-lg-6 col-lg-offset-3">
                     <p>
-                        <t>Chargé de Mission RH</t><br/> Latelec (Labège)<br/>
+                        <t class="tr" key="explattitre">Chargé de Mission RH</t><br/> Latelec (Labège)<br/>
                     </p>
                     <p>
-                        <more>Compétences :
+                        <more class="tr" key="explattitre2">Compétences :
                             <ul>
-                                <li>Recrutements</li>
-                                <li>Mise en place d’une préparation opérationnelle à l’emploi (POE)</li>
-                                <li>Mise en place de formations corrélées à des recrutements en partenariat avec des agences d’intérim.</li>
-                                <li>Définition de modalités d’expatriation au Mexique.</li>
-                                <li>Diagnostic sur la pénibilité et création de fiches de prévention.</li>
-                                <li>Réalisation et amélioration continue du Bilan Social, du Rapport d’égalité H/F, du Rapport sur les risques psycho-sociaux et du Rapport Sénior.</li>
-                                <li>Intégration des nouveaux embauchés</li>
+                                <li class="tr" key="explattitre3">Recrutements</li>
+                                <li class="tr" key="explattitre4">Mise en place d’une préparation opérationnelle à l’emploi (POE)</li>
+                                <li class="tr" key="explattitre5">Mise en place de formations corrélées à des recrutements en partenariat avec des agences d’intérim.</li>
+                                <li class="tr" key="explattitre6">Définition de modalités d’expatriation au Mexique.</li>
+                                <li class="tr" key="explattitre7">Diagnostic sur la pénibilité et création de fiches de prévention.</li>
+                                <li class="tr" key="explattitre8">Réalisation et amélioration continue du Bilan Social, du Rapport d’égalité H/F, du Rapport sur les risques psycho-sociaux et du Rapport Sénior.</li>
+                                <li class="tr" key="explattitre9">Intégration des nouveaux embauchés</li>
                             </ul>
                         </more>
                     </p>
@@ -301,13 +310,13 @@
 
                 <div class="col-lg-6 col-lg-offset-3">
                     <p>
-                        <t>Responsable Formation</t><br/> Actia Automtive (Ramonville)<br/>
+                        <t class="tr" key="expacttitre">Responsable Formation</t><br/> Actia Automotive (Ramonville)<br/>
                     </p>
                     <p>
-                        <more>Compétences :
+                        <more class="tr" key="expacttitre2">Compétences :
                             <ul>
-                                <li>Elaboration et mise en œuvre du plan de formation.</li>
-                                <li>Gestion administrative des contrats d’alternance et des stages.</li>
+                                <li class="tr" key="expacttitre3">Elaboration et mise en œuvre du plan de formation.</li>
+                                <li class="tr" key="expacttitre4">Gestion administrative des contrats d’alternance et des stages.</li>
                             </ul>
                         </more>
                     </p>
@@ -321,10 +330,10 @@
 
             <div class="col-lg-6 col-lg-offset-3">
                 <p>
-                    <t>Gestionnaire Paie</t><br/> EADS, Lacroix Ruggieri, Téléperformance<br/>
+                    <t class="tr" key="expeadstitre">Gestionnaire Paie</t><br/> EADS, Lacroix Ruggieri, Téléperformance<br/>
                 </p>
                 <p>
-                    <more>Etablissement de la paie et des documents administratifs attenants
+                    <more class="tr" key="expeadstitre2">Etablissement de la paie et des documents administratifs attenants
                     </more>
                 </p>
             </div>
@@ -336,10 +345,9 @@
 
             <div class="col-lg-6 col-lg-offset-3">
                 <p>
-                    <t>Correspondant RH</t><br/> Imerys (Contrat de professionnalisation)<br/>
-                </p>
-                <p>
-                    <more>Recrutement /Gestion de l'interim / Elaboration et mise en oeuvre du plan de formation / Paie
+                    <t class="tr" key="expimetitre">Correspondant RH</t><br/>
+                    <p id="imerys" class="tr" key="expimetitre3">Imerys (Contrat de professionnalisation)</p><br/>
+                    <more class="tr" key="expimetitre2">Recrutement /Gestion de l'interim / Elaboration et mise en oeuvre du plan de formation / Paie
                     </more>
                 </p>
             </div>
@@ -360,7 +368,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-2 col-lg-offset-1">
-                    <h5>COMPETENCES</h5>
+                    <h5 class="tr" key="competences">COMPETENCES</h5>
                 </div>
                 <div class="col-lg-3 centered">
                     <canvas id="javascript" height="130" width="130"></canvas>
@@ -479,15 +487,15 @@
                         <t>Email</t><br/> <a href="patrick.taylor31@gmail.com">patrick.taylor31@gmail.com</a><br/>
                     </p>
                     <p>
-                        <t>Adresse</t><br/> 31 rue de Gironis - Appt A19<br/> 31300 <br/> Toulouse, France. <br/>
+                        <t class="tr" key="adresse">Adresse</t><br/> 31 rue de Gironis - Appt A19<br/> 31300 <br/> Toulouse, France. <br/>
                     </p>
                     <p>
-                        <t>Tél</t><br/> 06.80.14.92.33<br/>
+                        <t class="tr" key="tel">Tél</t><br/> 06.80.14.92.33<br/>
                     </p>
                 </div>
                 <div class="col-lg-3">
                     <p>
-                        <sm>RESEAUX SOCIAUX</sm>
+                        <sm class="tr" key="reseaux">RESEAUX SOCIAUX</sm>
                     </p>
                     <p>
 
@@ -510,8 +518,9 @@
 
         </div>
     </div>
-
     <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/translate.js"></script>
+ 
 </body>
 
 </html>
